@@ -66,3 +66,7 @@ gem 'devise'
 gem 'bootstrap', '~> 4.4.1'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
+gem 'carrierwave', '~> 1.0'
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
+gem "mini_magick"

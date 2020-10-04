@@ -1,7 +1,7 @@
-# 学門
+# gakumon
 
 ## サイト概要
-勉強の情報や問題のアドバイスをもらう
+勉強の情報や問題の共有サイト
 
 ### サイトテーマ
 悩んだときこそ、人からのアドバイス
@@ -47,9 +47,7 @@ https://docs.google.com/spreadsheets/d/1Z1rARm4LOMzffpL0Deh86UtLvxQSd9EJd-_mlCW1
   - コメント
   - 一覧機能
   - 画像アップロード
-  - ランキング、おすすめ
 - JavaScript
-  - 画像スライダー
   - デプロイ
   - README
   - リーダブルコード
