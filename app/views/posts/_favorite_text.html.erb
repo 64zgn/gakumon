@@ -1,0 +1,17 @@
+<strong>
+  <% favorites.each.with_index do |favorite, index| %>
+    <% if favorites.size == 1 %>
+      <%= favorite.user.name %> </strong> が「いいね！」しました
+    <% elsif favorite == favorites.last %>
+      </strong>and<strong>
+      <%= + favorite.user.name %></strong> が「いいね！」しました
+    <% elsif index > 1 %>
+      </strong><%= "and " + (favorites.size-index).to_s + " 他 " %> が「いいね！」しました
+      <% break %>
+    <% elsif index == favorites.size-2 || index == 1 %>
+      <%= favorite.user.name %>
+    <% else %>
+      <%= favorite.user.name + ", " %>
+    <% end %>
+  <% end %>
+</strong>

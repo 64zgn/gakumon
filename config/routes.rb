@@ -6,8 +6,10 @@ Rails.application.routes.draw do
   root 'posts#index'
   get '/users/:id', to: 'users#show', as: 'user'
 
-  resources :posts, only: %i(new create index show destroy) do
-    resources :photos, only: %i(create)
+  resources :posts, only: [:new, :create, :index, :show, :destroy] do
+    resources :photos, only: [:create]
+    resources :favorites, only: [:create, :destroy]
+    resources :comments, only: [:create, :destroy]
   end
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
