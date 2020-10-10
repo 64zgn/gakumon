@@ -13,10 +13,7 @@
   margin: 40px 0px;
 }
 
-.no-text-decoration:hover {
-  /*text-decoration: none;*/
-}
-
+/*名前*/
 .black-color {
   color: #262626;
 }
@@ -25,12 +22,13 @@
   margin: 12px 0;
 }
 
+/*いいね*/
 .love {
   background-image: image-url("parts5");
   background-repeat: no-repeat;
   height: 36px;
   width: 36px;
-  background-size: 36px !important;
+  background-size: 36px;
 }
 
 .comment {
@@ -39,7 +37,7 @@
   background-repeat: no-repeat;
   height: 36px;
   width: 36px;
-  background-size: 40px !important;
+  background-size: 40px;
 }
 
 .post-time {
@@ -48,10 +46,6 @@
   font-size: 10px;
 }
 
-.post-sub-text {
-  text-decoration: none;
-  color: #262626;
-}
 
 .post-wrap .col-md-8 {
   padding: 0px;
@@ -90,7 +84,7 @@
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
-  background-size: 20px !important;
+  background-size: 20px ;
   color: #262626;
   font-size: 20px;
 }
@@ -100,7 +94,7 @@
   background-repeat: no-repeat;
   height: 36px;
   width: 36px;
-  background-size: 36px !important;
+  background-size: 36px;
 }
 
 .hide-text {
@@ -117,6 +111,6 @@
   height: 11px;
   float: right;
   margin: 5px 0 0 10px;
-  background-size: 11px !important;
+  background-size: 11px;
 }
 
